@@ -6,5 +6,8 @@ public abstract class Tranaction {
         public void paythroughCreditCard(){
             transaction.pay();
         }
+        public void paythroughPaytm(){
+            transaction.pay();
+        }
 
 }

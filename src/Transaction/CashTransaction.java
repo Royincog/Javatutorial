@@ -5,6 +5,7 @@ public class CashTransaction extends Tranaction {
     public CashTransaction(int amount){
         this.amount = amount;
         transaction = new Bank();
+
     }
     public static int getamount(){
         return amount;
